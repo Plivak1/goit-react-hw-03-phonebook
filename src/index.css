@@ -1,0 +1,45 @@
+@import 'normalize.css';
+
+:root {
+  --toastify-color-light: rgb(251, 39, 39);
+  --toastify-icon-color-error: #fff;
+  --toastify-color-progress-error: #fff;
+}
+
+.Toastify__close-button > svg {
+  fill: #fff;
+}
+
+.Toastify__toast {
+  height: 70px;
+  border-radius: 8px;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Comic Sans MS', 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(229, 246, 246);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
